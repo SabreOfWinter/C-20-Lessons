@@ -1,0 +1,10 @@
+Compile Time Errors:
+- Prevent the C++ code to be converted and build a binary executable file
+
+Runtime error:
+- Logical error within the program that may allow for the program to be compiled
+- Can cause the program to crash while the program is running
+
+Warning:
+- Not serious enough to crash the program
+- However, this tells you that potential issues may arise 
