@@ -1,0 +1,7 @@
+1. // Comments out a single line
+
+2. /* ... */ Block Comments out a block of text
+
+3. /* ... */ Block comments can't be nested
+
+4. Use comments to document your code. Don't overdo it with too many
