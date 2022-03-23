@@ -1,0 +1,18 @@
+Variable
+ - A named piece of memory that you use to store specific types of data
+ - format of variable declaration
+	typename variable_name {initalizer_value}
+
+
+Int
+ - Stores decimals
+ - Typically occupies 4 bytes or more in memory
+
+Rules for variable names
+- Variables must start with a letter or an underscore (but not a number)
+- After the first letter, anything is exceptable
+- Variables are case sensitive
+- No spaces
+- No special characters (e,g. ? or +), (with exception to underscores)
+
+
