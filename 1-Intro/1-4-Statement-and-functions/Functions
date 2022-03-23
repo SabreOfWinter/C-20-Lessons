@@ -1,0 +1,9 @@
+ - Give it an input and it will give you an output
+
+ - Return type defined for the expected data type to be returned by the function
+
+ - Function name defined used for calling the function
+
+ - Parameters are the inputs passed to the function that can be used within the block of code of the function
+
+ - A function must be defined before it's use
