@@ -1,0 +1,11 @@
+Core 
+ - Core feature, basic building block that makes up the C++ langauge
+ - e.g Basic data types like Int 
+
+
+Standard Library
+ - A set of ready to use highly specialised components that can be used in C++
+ - e.g #include <iostream> is a standard library
+
+STL
+ - A collection of container types
