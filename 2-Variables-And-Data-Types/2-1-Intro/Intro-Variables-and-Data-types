@@ -1,0 +1,19 @@
+Int
+ - Represents whole numbers
+
+Double/Float
+ -  Represents fractional numbers, numbers with decimal places
+ -  Differents between the two types will be learnt later
+
+Char
+ - Represent characters in memory, like A, B, C, ...
+
+Bool
+ - Can be one of two possible states (True or False)
+
+Void
+ - Represents a typeless type
+ - Usefulness shown later in learning functions
+
+Auto
+ - Keyword used to deduce a type
