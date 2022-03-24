@@ -1,0 +1,16 @@
+A set of rules that we can follow to know what to do when we have multiple operations in the same expression
+ - Without a clear idea of the order to perform operations, it could lead to different possible 	results
+
+a + b * c -d/e -f + g
+
+In C++
+ - Multiplication and Divison come before Addition and Subtraction
+
+Precedence : 	Which operations to do first
+Associativity : Which direction or which order
+
+C++ Operator precedence table available to show the order of operations and their associativity
+
+- It is better to make the intent in your code as clear as possible  by clearly using () to indicate which operations you want done first
+
+  
