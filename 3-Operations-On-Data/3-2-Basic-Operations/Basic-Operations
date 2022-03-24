@@ -1,0 +1,14 @@
+Looking in to
+ - Add
+ - Subtract
+ - Multiply
+ - Divide
+ - Modulus
+
+Integer divison will not result in a fractional number, instead splitting the number and keeping the whole number on the left of the decimal place
+
+ Example: 31 / 10 = 3 (10 | 10 | 10 | 1)
+
+The Modulus operation will provide the remainder from dividing two numbers
+
+ Example: 31 / 10 = 1 (10 | 10 | 10 | 1)
