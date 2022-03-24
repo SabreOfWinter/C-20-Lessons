@@ -1,0 +1,30 @@
+AND 	&&
+OR 	||
+NOT 	!
+
+AND
+
+a	b	a && b
+----------------------------
+false	false	false
+false	true	false
+true	false	false
+true	true	true
+
+
+OR
+
+a	b	a || b
+---------------------------
+false	false	false
+false	true	true
+true	false	true
+true	true	true
+
+
+NOT
+
+a	!a
+---------------------------
+false	true
+true	false
