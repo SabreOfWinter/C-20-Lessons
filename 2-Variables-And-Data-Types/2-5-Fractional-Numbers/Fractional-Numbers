@@ -1,0 +1,21 @@
+Fractional Numbers (aka Floating Point Types)
+ - Used to represent numbers with fractional parts in C++
+
+Type 		Size	Precision	Comment
+-----------------------------------------------------------
+float		4	7		-
+double		8	15		Recommended default
+long double	12	> double
+
+Precision
+ - The number of bits that can be represented that type, starting from the first number before the 	decimal place
+
+Differences with int data type
+ - Can divide by zero
+	n(floating point)/0 | Infinity(+/-)
+ - Can divide 2 floating point numbers that are 0
+	0.0/0.0 | NaN (Not a Number)
+  	
+
+- Remember the suffixes when initializing floating point variables, otherwise the default will be 	double
+- Double works well in many situations, so you will see it used a lot
