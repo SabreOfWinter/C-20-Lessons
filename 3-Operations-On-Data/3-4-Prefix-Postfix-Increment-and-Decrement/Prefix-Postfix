@@ -1,0 +1,5 @@
+- Prefix and postfix increment/decrement operators are useful
+
+- But they only increment by one, what if we need to increment by a value other than 1, say 5 or 7. We'll see a way to do that in the next lesson
+
+- There is no value** or **value, or //value or value//. They don't make sense, these prefix/postfix operators are only available for + and -, again because that's where they make sense
