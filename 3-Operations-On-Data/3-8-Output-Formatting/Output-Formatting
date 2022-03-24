@@ -1,0 +1,56 @@
+Can be used to change the format of the output displayed in the terminal
+
+std::endl (or "world\n" slightly different)
+ - Prints the text to a new line
+
+std::flush
+ - Causes immediate sending of data to the device connected to the stream
+
+std::setw()
+ - Sets the width (by amount of characters)
+ - Useful for making tables
+
+std::right
+ - Prints the characters to the right with any spaces being printed to the left
+
+std::internal 
+ - Negative sign will be printed on the left with the data to the right
+
+std::setfill
+ - Used to change the character used to fill between data
+
+std::boolalpha
+ - Changes the boolean format from 1/0 to true/false
+
+std::showpos
+ - Shows the positive number sign of positive numbers
+ - Disable with std::noshowpos
+
+std::dec std::oct and std::hex
+ - Shows the data in different number systems
+ - No effect on floating point numbers
+
+std::showbase
+ - Shows the number base of the data
+
+std::uppercase
+ - Forces all letters to uppercase
+
+std::scientific and std::fixed
+ - Changes the method of displaying floating point numbers
+ - Fixed by default
+
+std::setprecision
+ - Set the number of digits displayed for a floating point number
+ - Default is 6
+
+std::showpoint
+ - Show trailing zeros if necessary
+ - Example (float 12.0 - default = 12 | showpoint = 12.0000)
+ - std::noshowpoint to disable
+
+
+
+
+
+ 
