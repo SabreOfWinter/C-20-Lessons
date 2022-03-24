@@ -1,0 +1,7 @@
+Booleans 
+ - Can store one of two possible states (True or False)
+ - Used mostly for decision making in programs
+ - In memory they take up 8 bits
+ - A byte can store 256 different values
+ - Using it just to cover two states (True/False) is wasteful, especially for devices with hard memory constraints (think embedded devices)
+ - There are techniques to pack even more data into a byte.
