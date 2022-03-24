@@ -1,0 +1,29 @@
+Integer Modifiers
+ - Features that can be used on integer types to modify their behaviour
+
+Positive and negative numbers in integers
+-These assignments will work correctly
+ - int value1 {10};
+ - int value2 {-300};
+
+-This is because the datatype int is signed by default
+ - signed int value1 {10};
+ - signed int value2 {-300};
+
+-Unsigned modifier will only allow for postive numbers to be used by the variable (compiling error for negative numbers)
+ - unsigned int value1 {10};
+ - unsigned int value2 {-300}; //Error
+
+unsigned range 	[0 ~ 2^n - 1]
+signed range 	[-2^n-1 ~ 2^n-1 - 1]
+ *(n is the number of bits for a type in memory)
+
+Types with modifier	Bytes in memory		Range
+------------------------------------------------------
+unsigned int		4			[0, 4,294,967,295]
+signed int		4			[-2,147,483,648, 2,147,483,647]
+
+
+Short & Long
+- Short sets the memory space of an int to 2 bytes
+- Long sets the memory space of an int to 8 bytes
