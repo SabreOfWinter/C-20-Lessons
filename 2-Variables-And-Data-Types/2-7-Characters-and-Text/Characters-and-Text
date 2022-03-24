@@ -1,0 +1,11 @@
+Characters
+ - Represented with the the keyword Char
+	- char character1 {'a'};
+ - Chars must be declared with a single quote ('') or else there will be a compiler error
+ - They take up 1 Byte in memory
+ - 1 byte : 256 possible values (Each matched to some character) (e.g. ASCII Table is one mapping)
+ - It is possible to assign a valid ASCII code to a char variable, and the corresponding character will be stroed in. You can choose to intrepret that either as a character or a regular integral value
+
+ - ASCII was among the first encodings to represent text in a computer
+ - It falls short when it comes to representing languages other than English and a few western languages. (Struggles with languages a different script system, e.g. Japanese, Arabic, Chinese)
+ - There are better ways to represent text that is meant to be seen in different languages, one of the most common being Unicode
