@@ -1,0 +1,3 @@
+Auto
+ - Let the compiler deduce the data type
+ - Useful for when dealing with longer data type names
