@@ -1,0 +1,8 @@
+Integreal types less than 4 bytes in size don't support arithmetic operations
+ - Char
+ - Short int
+
+Compiles will convert to int if a variable of one of these types has an arithmetic operation performed
+
+The same behaviour is presenton other operators like bitwise shift operators (>> and <<)
+
