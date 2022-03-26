@@ -1,0 +1,23 @@
+#include <limits>
+
+std::numberic_limits<T>::min()
+std::numberic_limits<T>::max()
+std::numberic_limits<T>::lowest()
+
+<T> - is a placeholder for the type which you want to know for the min, max, lowest
+
+Example 
+
+Floating point
+-3.40282e+38		0	1.17549e-38		3.40282e+38
+lowest				min			max
+
+Signed Integer
+			0	-32768			32767
+lowest				min			max
+
+Unsigned Integer(short)
+			0	0			65535
+lowest				min			max
+
+
