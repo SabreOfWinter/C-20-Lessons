@@ -1,0 +1,11 @@
+Pillars of any loop
+ - Iterator
+ - Starting point
+ - Test (controls when the loop stops)
+ - Increment(Decrement)
+ - Loop body
+
+size_t 
+ - Not a type, just a type alias for some unisgned int representation
+
+
